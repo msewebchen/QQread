@@ -47,9 +47,9 @@ jobs:
         run: |
           node qqyd.js
         env:
-          COOKIE_QQYD: ${{ secrets.COOKIE_QQYD1 }}
+          COOKIE_QQYD: ${{ secrets.COOKIE_QQYD3 }}
       - name: ' 运行 【企鹅阅读四】'
-        if: env.COOKIE_QQYD2
+        if: env.COOKIE_QQYD4
         run: |
           node qqyd.js
         env:
