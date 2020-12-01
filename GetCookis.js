@@ -181,7 +181,7 @@ const qqreadtimeheaderVal = JSON.stringify($request.headers)
 
 }
 
-
+console.log(qqreadurlVal+'\n\n'+qqreadheaderVal+'\n\n'+qqreadtimeurlVal+'\n\n'+qqreadtimeheaderVal)
 
 
 function all()
